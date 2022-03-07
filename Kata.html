@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="whidth=device-width, initial-scaele=1.0">
+<title>PastelGalaxy</title>
+    
+</head>
+
+<h2>Sabores de pastel</h2>
+<table>
+    <tr>
+        <th>Sabor</th>
+        <th>precio</th>
+    </tr>
+    <tr>
+        <td>Fresa</td>
+        <td>.................................... $150</td>   
+    </tr>
+    <tr>
+        <td>Vainilla</td>
+        <td>.................................... $145</td>
+    </tr>
+    <tr>
+        <td>Kiwi</td>
+        <td>.................................... $155</td>
+    </tr>
+</table>
+<br>
+<table> 
+    <tr>
+        <th>Adorno</th>
+        <th>precio</th>
+    </tr>
+    <tr>
+        <td>Nombre con glaseado</td>
+        <td>.................................... $70</td>   
+    </tr>
+    <tr>
+        <td>Dibujo</td>
+        <td>.................................... $200</td>
+    </tr>
+    <tr>
+        <td>Petalos comestibles</td>
+        <td>.................................... $50</td>
+    </tr>
+</table>
+
+<hr>
+<h2>Datos de pedido</h2>
+
+    <form action="pedido.js">
+    <label for="nombre1">Nombre de cliente</label>
+    <input type="text" id="nom1" name="nombre1"><br><br>
+
+    <laber for="numero1">Número de teléfono</laber>
+    <input type="tell" id="num1" name="numero1" maxlength="10"><br><br>
+
+    <label for="email1">Correo Electónico</label>
+    <input type="email" id="email1" name="email1" value="example@example.com"><br><br>
+
+    <label for="desc1">Descripcion general</label>
+    <input type="text" id="desc1" name="desc1" maxlength="150"><br><br>
+
+    <h3>Elaboración del pastel</h3>
+    <input type="checkbox" id="check1" name="check1" value="fresa">
+    <label for="check1">Fresa</label><br><br>
+    <input type="checkbox" id="check2" name="check2" value="vainilla">
+    <label for="check2">Vainilla</label><br><br>
+    <input type="checkbox" id="check3" name="check3" value="kiwi">
+    <label for="check3">Kiwi</label><br><br>
+
+    <input type="checkbox" id="check4" name="check4" value="nombreG">
+    <label for="check1">Nombre glaseado</label><br><br>
+    <input type="checkbox" id="check5" name="check5" value="dibujo">
+    <label for="check2">Con dibujo</label><br><br>
+    <input type="checkbox" id="check6" name="check6" value="petalos">
+    <label for="check3">Petalos comestibles</label><br><br>
+
+    <input type="reset" value="Reestablecer">
+    <input type="submit" value="Enviar">
+</form>
+
+
+</html>
